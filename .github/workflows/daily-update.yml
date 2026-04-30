@@ -1,0 +1,64 @@
+name: Daily HTML rebuild
+
+on:
+  schedule:
+    # 00:05 UTC every day — fresh date in HTML each morning
+    - cron: "5 0 * * *"
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "templates/**"
+      - "public/**"
+      - "scripts/**"
+      - ".github/workflows/daily-update.yml"
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Run build
+        run: node scripts/build.js
+
+      - name: Commit regenerated files (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html services/ sitemap.xml robots.txt 404.html assets/ .nojekyll || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "build: daily HTML refresh ($(date -u +%Y-%m-%d))"
+            git push
+          fi
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
