@@ -1,0 +1,1402 @@
+{
+  "site": {
+    "name": "VPN Status",
+    "domain": "vpn-status.example.com",
+    "title": "Статус VPN-сервисов в реальном времени",
+    "description": "Мониторинг работоспособности VPN-сервисов в России. Узнайте, какие VPN работают сегодня, и подберите рабочую альтернативу.",
+    "author": "Команда VPN Status",
+    "year": 2026
+  },
+  "platforms": {
+    "android": {
+      "label": "Android",
+      "icon": "📱"
+    },
+    "ios": {
+      "label": "iOS",
+      "icon": "🍎"
+    },
+    "windows": {
+      "label": "Windows",
+      "icon": "🪟"
+    },
+    "macos": {
+      "label": "macOS",
+      "icon": "💻"
+    },
+    "linux": {
+      "label": "Linux",
+      "icon": "🐧"
+    },
+    "router": {
+      "label": "Роутеры",
+      "icon": "📡"
+    },
+    "youtube": {
+      "label": "YouTube",
+      "icon": "▶️"
+    },
+    "telegram": {
+      "label": "Telegram",
+      "icon": "✈️"
+    },
+    "instagram": {
+      "label": "Instagram",
+      "icon": "📸"
+    },
+    "tiktok": {
+      "label": "TikTok",
+      "icon": "🎵"
+    },
+    "whatsapp": {
+      "label": "WhatsApp",
+      "icon": "💬"
+    },
+    "discord": {
+      "label": "Discord",
+      "icon": "🎮"
+    },
+    "twitch": {
+      "label": "Twitch",
+      "icon": "🎯"
+    },
+    "facebook": {
+      "label": "Facebook",
+      "icon": "👥"
+    },
+    "twitter": {
+      "label": "X / Twitter",
+      "icon": "🐦"
+    },
+    "spotify": {
+      "label": "Spotify",
+      "icon": "🎧"
+    },
+    "netflix": {
+      "label": "Netflix",
+      "icon": "🎬"
+    },
+    "torrent": {
+      "label": "Торренты",
+      "icon": "📥"
+    },
+    "openai": {
+      "label": "ChatGPT",
+      "icon": "🤖"
+    }
+  },
+  "services": [
+    {
+      "slug": "vpntype",
+      "name": "VPNType",
+      "color": "#2563eb",
+      "logo": "VT",
+      "siteUrl": "https://2026.vpntype-bot.com/?ref=vpn_status",
+      "isPartner": true,
+      "voteThreshold": 50,
+      "uptimeStartHoursAgo": 504,
+      "tagline": "Универсальный VPN-бот в Telegram с быстрыми протоколами",
+      "description": "VPNType — Telegram-бот с готовыми VPN-конфигами. Поддерживает протоколы VLESS Reality, AmneziaWG и Outline, что обеспечивает обход блокировок DPI в России. Подходит для смартфонов, ПК и роутеров. Регулярно обновляет инфраструктуру при блокировках.",
+      "country": "🇪🇺 Европа",
+      "founded": "2022",
+      "protocols": [
+        "VLESS Reality",
+        "AmneziaWG",
+        "Outline",
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "discord",
+        "twitch",
+        "openai"
+      ],
+      "pros": [
+        "Работает в России без перебоев — обновляемая инфраструктура",
+        "Обход DPI-блокировок через Reality и AmneziaWG",
+        "Бесплатный пробный период через Telegram-бота",
+        "Поддержка роутеров и стриминга 4K"
+      ],
+      "cons": [
+        "Управление через Telegram, отдельного приложения нет",
+        "Платный тариф для безлимита"
+      ],
+      "faq": [
+        {
+          "q": "Как подключить VPNType?",
+          "a": "Перейдите по ссылке на бота, выберите протокол (VLESS Reality для России рекомендуется), скачайте клиент v2rayTun или Hiddify и импортируйте конфиг."
+        },
+        {
+          "q": "Работает ли VPNType с YouTube и ChatGPT?",
+          "a": "Да, сервис обходит ограничения YouTube и предоставляет доступ к ChatGPT, Claude и другим ИИ-сервисам, недоступным в РФ."
+        }
+      ]
+    },
+    {
+      "slug": "adguard-vpn",
+      "name": "AdGuard VPN",
+      "color": "#67b279",
+      "logo": "AG",
+      "siteUrl": "https://vk.cc/cUxOkm",
+      "isPartner": true,
+      "voteThreshold": 50,
+      "uptimeStartHoursAgo": 480,
+      "tagline": "VPN с фильтрацией рекламы и трекеров от AdGuard",
+      "description": "AdGuard VPN — продукт от компании, известной своими блокировщиками рекламы. Помимо стандартного шифрования трафика, добавляет защиту от трекеров и фишинга. Имеет десктопные и мобильные приложения, а также расширения для браузеров.",
+      "country": "🇨🇾 Кипр",
+      "founded": "2020",
+      "protocols": [
+        "AdGuard VPN Protocol",
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "discord",
+        "openai"
+      ],
+      "pros": [
+        "Встроенная блокировка рекламы и трекеров",
+        "Удобные приложения для всех платформ",
+        "Бесплатный тариф 3 ГБ в месяц",
+        "Расширения для Chrome, Firefox, Edge"
+      ],
+      "cons": [
+        "Меньше серверов, чем у топовых конкурентов",
+        "Бесплатный тариф ограничен по трафику"
+      ],
+      "faq": [
+        {
+          "q": "Чем AdGuard VPN отличается от других?",
+          "a": "Помимо VPN-туннеля, сервис фильтрует рекламу, трекеры и фишинговые сайты на уровне DNS — это ускоряет загрузку страниц и снижает потребление трафика."
+        },
+        {
+          "q": "Есть ли бесплатный тариф?",
+          "a": "Да, AdGuard VPN предоставляет 3 ГБ бесплатного трафика в месяц с ограничением скорости."
+        }
+      ]
+    },
+    {
+      "slug": "amnezia",
+      "name": "Amnezia VPN",
+      "color": "#ff6b35",
+      "logo": "AM",
+      "siteUrl": "https://amnezia.org",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Self-hosted VPN с собственным протоколом AmneziaWG",
+      "description": "Amnezia — open-source VPN, который разворачивается на собственном сервере пользователя. Известен протоколом AmneziaWG (модифицированный WireGuard для обхода DPI) и протоколом Cloak. Популярен в России благодаря устойчивости к блокировкам.",
+      "country": "🌐 Open Source",
+      "founded": "2020",
+      "protocols": [
+        "AmneziaWG",
+        "OpenVPN over Cloak",
+        "Shadowsocks",
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "openai"
+      ],
+      "pros": [
+        "Полностью бесплатно (платите только за свой VPS)",
+        "Открытый исходный код, аудит сообщества",
+        "AmneziaWG обходит DPI в России",
+        "Полный контроль над данными — нет третьих сторон"
+      ],
+      "cons": [
+        "Требует аренды VPS и базовых технических навыков",
+        "Сам пользователь отвечает за работоспособность"
+      ],
+      "faq": [
+        {
+          "q": "Сколько стоит Amnezia?",
+          "a": "Сам клиент бесплатный. Вам понадобится только VPS (от $3-5/мес у любого провайдера)."
+        },
+        {
+          "q": "Что такое AmneziaWG?",
+          "a": "Модифицированная версия WireGuard с обфускацией пакетов — выглядит для DPI как случайный трафик, что мешает блокировке."
+        }
+      ],
+      "uptimeStartIso": "2026-04-12T15:26:00.000Z"
+    },
+    {
+      "slug": "outline",
+      "name": "Outline VPN",
+      "color": "#1aa260",
+      "logo": "OL",
+      "siteUrl": "https://getoutline.org",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Open-source VPN от Jigsaw (Google) на базе Shadowsocks",
+      "description": "Outline — бесплатный VPN с открытым кодом, разработанный Jigsaw (подразделение Google). Использует протокол Shadowsocks, изначально созданный для обхода Великого китайского файрвола. Пользователь сам разворачивает сервер на VPS.",
+      "country": "🇺🇸 США (Jigsaw)",
+      "founded": "2018",
+      "protocols": [
+        "Shadowsocks"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "youtube",
+        "telegram",
+        "instagram",
+        "openai"
+      ],
+      "pros": [
+        "Полностью бесплатно",
+        "Простая настройка для админа",
+        "Открытый исходный код",
+        "Хорошо подходит для обхода DPI"
+      ],
+      "cons": [
+        "Нужен свой сервер",
+        "Один протокол (Shadowsocks)",
+        "Нет встроенной обфускации против deep packet inspection последнего поколения"
+      ],
+      "faq": [
+        {
+          "q": "Outline бесплатный?",
+          "a": "Да, и клиент, и серверная часть бесплатны. Платите только за хостинг VPS."
+        }
+      ],
+      "uptimeStartIso": "2026-04-09T21:22:00.000Z"
+    },
+    {
+      "slug": "cloudflare-warp",
+      "name": "Cloudflare WARP",
+      "color": "#f38020",
+      "logo": "CF",
+      "siteUrl": "https://1.1.1.1",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Бесплатный VPN от Cloudflare на базе WireGuard",
+      "description": "Cloudflare WARP — бесплатный VPN-сервис от Cloudflare на основе их сети 1.1.1.1. Шифрует трафик и направляет его через серверы Cloudflare. Не позиционируется как сервис обхода блокировок, но многим помогает.",
+      "country": "🇺🇸 США",
+      "founded": "2019",
+      "protocols": [
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "youtube",
+        "openai"
+      ],
+      "pros": [
+        "Полностью бесплатно",
+        "Высокая скорость через сеть Cloudflare",
+        "Простое приложение",
+        "Хорошо для ускорения подключения"
+      ],
+      "cons": [
+        "Нестабильно работает в России — Cloudflare частично блокируется",
+        "Не предназначен для обхода блокировок",
+        "Нет выбора серверов"
+      ],
+      "faq": [
+        {
+          "q": "WARP — это VPN?",
+          "a": "Технически WARP — это VPN-туннель, но Cloudflare позиционирует его как ускоритель интернета и инструмент защиты, а не как средство обхода блокировок."
+        }
+      ],
+      "uptimeStartIso": "2026-04-18T23:00:00.000Z"
+    },
+    {
+      "slug": "nordvpn",
+      "name": "NordVPN",
+      "color": "#4687ff",
+      "logo": "NV",
+      "siteUrl": "https://nordvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Один из самых известных VPN-провайдеров в мире",
+      "description": "NordVPN — крупный коммерческий VPN с серверами в 60+ странах. Использует протоколы NordLynx (на базе WireGuard) и OpenVPN. В России работает нестабильно из-за активных блокировок: компания не сотрудничает с Роскомнадзором.",
+      "country": "🇵🇦 Панама",
+      "founded": "2012",
+      "protocols": [
+        "NordLynx",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube",
+        "netflix",
+        "torrent"
+      ],
+      "pros": [
+        "5500+ серверов в 60 странах",
+        "Двойной VPN, Onion over VPN",
+        "Не ведёт логов (аудит подтверждён)",
+        "Работает с Netflix, BBC iPlayer"
+      ],
+      "cons": [
+        "Заблокирован в России на уровне сайтов",
+        "Платный, без бесплатного тарифа",
+        "Нестабильно работает с YouTube из РФ"
+      ],
+      "faq": [
+        {
+          "q": "Работает ли NordVPN в России?",
+          "a": "Сайт NordVPN заблокирован, но сам сервис может работать через ранее установленные приложения. Стабильность подключения непредсказуема."
+        }
+      ],
+      "uptimeStartIso": "2026-04-12T18:42:00.000Z"
+    },
+    {
+      "slug": "expressvpn",
+      "name": "ExpressVPN",
+      "color": "#da3940",
+      "logo": "EV",
+      "siteUrl": "https://expressvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Премиум-VPN с серверами в 105 странах",
+      "description": "ExpressVPN — один из самых дорогих и известных VPN. Использует собственный протокол Lightway. В РФ официально не работает с 2017 года (компания убрала российские серверы). Активно блокируется Роскомнадзором.",
+      "country": "🇻🇬 Британские Виргинские острова",
+      "founded": "2009",
+      "protocols": [
+        "Lightway",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube",
+        "netflix"
+      ],
+      "pros": [
+        "Серверы в 105 странах",
+        "Высокая скорость на Lightway",
+        "TrustedServer (RAM-only) технология",
+        "Хорошая поддержка"
+      ],
+      "cons": [
+        "Дорогой",
+        "Сайт и приложения заблокированы в РФ",
+        "Нет российских серверов с 2017"
+      ],
+      "faq": [
+        {
+          "q": "Почему ExpressVPN ушёл из России?",
+          "a": "В 2017 году компания удалила серверы из РФ, чтобы не выполнять требования закона о хранении данных. С тех пор сервис активно блокируется."
+        }
+      ],
+      "uptimeStartIso": "2026-04-17T13:13:00.000Z"
+    },
+    {
+      "slug": "surfshark",
+      "name": "Surfshark",
+      "color": "#1eb91e",
+      "logo": "SS",
+      "siteUrl": "https://surfshark.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN с безлимитом устройств",
+      "description": "Surfshark — относительно молодой VPN, известный безлимитом одновременных подключений. Принадлежит Nord Security (тем же, кто владеет NordVPN). Использует WireGuard и OpenVPN.",
+      "country": "🇳🇱 Нидерланды",
+      "founded": "2018",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube",
+        "netflix"
+      ],
+      "pros": [
+        "Безлимит устройств на одном аккаунте",
+        "3200+ серверов в 100 странах",
+        "Camouflage Mode (обфускация)",
+        "Доступная цена при долгой подписке"
+      ],
+      "cons": [
+        "Сайт заблокирован в РФ",
+        "Молодая компания (с 2018)",
+        "Нет бесплатного тарифа"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-10T13:03:00.000Z"
+    },
+    {
+      "slug": "protonvpn",
+      "name": "Proton VPN",
+      "color": "#6d4aff",
+      "logo": "PV",
+      "siteUrl": "https://protonvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN от создателей ProtonMail с упором на приватность",
+      "description": "Proton VPN — швейцарский VPN от команды Proton Mail. Один из немногих коммерческих сервисов с действительно бесплатным тарифом без ограничений по трафику. Известен серверами Secure Core (двойной VPN).",
+      "country": "🇨🇭 Швейцария",
+      "founded": "2017",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2",
+        "Stealth"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube",
+        "telegram",
+        "openai"
+      ],
+      "pros": [
+        "Бесплатный тариф без лимита трафика",
+        "Швейцарская юрисдикция",
+        "Открытый исходный код приложений",
+        "Stealth-протокол для обхода блокировок"
+      ],
+      "cons": [
+        "На бесплатном тарифе медленно",
+        "Сайт может быть заблокирован",
+        "Бесплатно только 5 стран"
+      ],
+      "faq": [
+        {
+          "q": "Proton VPN правда бесплатный?",
+          "a": "Да, есть полностью бесплатный тариф без рекламы и без лимита трафика, но с ограниченным выбором серверов."
+        }
+      ],
+      "uptimeStartIso": "2026-04-18T05:43:00.000Z"
+    },
+    {
+      "slug": "mullvad",
+      "name": "Mullvad",
+      "color": "#3a4a5e",
+      "logo": "ML",
+      "siteUrl": "https://mullvad.net",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Анонимный VPN без email и имени — только номер аккаунта",
+      "description": "Mullvad — шведский VPN, известный радикальным подходом к приватности: при регистрации не нужны email, имя или другие данные — только случайно сгенерированный номер аккаунта. Принимает наличные по почте.",
+      "country": "🇸🇪 Швеция",
+      "founded": "2009",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router"
+      ],
+      "pros": [
+        "Максимальная анонимность регистрации",
+        "Фиксированная цена €5/мес",
+        "Открытый исходный код",
+        "Принимает Monero, наличные"
+      ],
+      "cons": [
+        "Меньше серверов, чем у топов",
+        "Не подходит для стриминга",
+        "Нет обфускации против DPI"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-11T06:47:00.000Z"
+    },
+    {
+      "slug": "windscribe",
+      "name": "Windscribe",
+      "color": "#1976d2",
+      "logo": "WS",
+      "siteUrl": "https://windscribe.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN с щедрым бесплатным тарифом 10 ГБ/мес",
+      "description": "Windscribe — канадский VPN с одним из самых щедрых бесплатных тарифов. После подтверждения email пользователь получает 10 ГБ трафика в месяц. Имеет фишку Stealth — обфускация трафика под HTTPS.",
+      "country": "🇨🇦 Канада",
+      "founded": "2016",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2",
+        "Stealth"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "youtube"
+      ],
+      "pros": [
+        "10 ГБ бесплатно в месяц",
+        "Stealth-режим для обхода блокировок",
+        "Расширения для браузеров с блокировкой рекламы",
+        "Гибкий конструктор тарифов"
+      ],
+      "cons": [
+        "Канадская юрисдикция (страна Five Eyes)",
+        "Бесплатно — только 11 локаций",
+        "Иногда низкая скорость"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-13T05:44:00.000Z"
+    },
+    {
+      "slug": "hide-me",
+      "name": "hide.me",
+      "color": "#ffc107",
+      "logo": "HM",
+      "siteUrl": "https://hide.me",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN из Малайзии с бесплатными 10 ГБ",
+      "description": "hide.me — малайзийский VPN с бесплатным тарифом 10 ГБ в месяц. Один из старейших VPN-сервисов, заявляет аудированную no-logs политику. В России работает нестабильно.",
+      "country": "🇲🇾 Малайзия",
+      "founded": "2012",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2",
+        "SoftEther",
+        "SSTP"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router"
+      ],
+      "pros": [
+        "10 ГБ бесплатно",
+        "Малайзия вне юрисдикции 14 Eyes",
+        "Поддержка SoftEther и SSTP",
+        "Аудит no-logs"
+      ],
+      "cons": [
+        "Бесплатно — только 8 локаций",
+        "Меньше серверов, чем у топов",
+        "Нестабилен из РФ"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-13T19:38:00.000Z"
+    },
+    {
+      "slug": "pia",
+      "name": "Private Internet Access",
+      "color": "#5fbb46",
+      "logo": "PI",
+      "siteUrl": "https://privateinternetaccess.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Старейший VPN с открытым кодом",
+      "description": "PIA — один из самых старых VPN-сервисов (с 2010 года). Принадлежит Kape Technologies. Имеет открытый исходный код приложений и серверы в 91 стране.",
+      "country": "🇺🇸 США",
+      "founded": "2010",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "torrent"
+      ],
+      "pros": [
+        "Серверы в 91 стране",
+        "Открытый код приложений",
+        "Поддерживает торренты на всех серверах",
+        "Доступная цена"
+      ],
+      "cons": [
+        "Юрисдикция США (Five Eyes)",
+        "Нет бесплатного тарифа",
+        "В РФ блокируется"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-15T05:52:00.000Z"
+    },
+    {
+      "slug": "cyberghost",
+      "name": "CyberGhost",
+      "color": "#ffb600",
+      "logo": "CG",
+      "siteUrl": "https://cyberghostvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN со специализированными серверами для стриминга",
+      "description": "CyberGhost — румынский VPN, принадлежит Kape Technologies. Известен серверами, оптимизированными под конкретные Netflix-регионы и торренты. 9700+ серверов.",
+      "country": "🇷🇴 Румыния",
+      "founded": "2011",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router",
+        "netflix",
+        "torrent"
+      ],
+      "pros": [
+        "9700+ серверов в 100 странах",
+        "Специализированные серверы под стриминг",
+        "Простой интерфейс",
+        "Гарантия возврата 45 дней"
+      ],
+      "cons": [
+        "Принадлежит Kape (вызывает споры в комьюнити)",
+        "Сайт заблокирован в РФ",
+        "Бесплатного тарифа нет"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-13T06:10:00.000Z"
+    },
+    {
+      "slug": "atlasvpn",
+      "name": "Atlas VPN",
+      "color": "#00d4ff",
+      "logo": "AV",
+      "siteUrl": "https://atlasvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Доступный VPN с бесплатным тарифом",
+      "description": "Atlas VPN принадлежит Nord Security (NordVPN, Surfshark). С 2024 года находится в процессе слияния с NordVPN. Имеет бесплатный тариф 5 ГБ/мес.",
+      "country": "🇺🇸 США",
+      "founded": "2019",
+      "protocols": [
+        "WireGuard",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube"
+      ],
+      "pros": [
+        "Бесплатно 5 ГБ в месяц",
+        "Безлимит устройств",
+        "Доступная цена",
+        "Простое приложение"
+      ],
+      "cons": [
+        "Сворачивается в пользу NordVPN",
+        "Юрисдикция США",
+        "Меньше серверов, чем у конкурентов"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-14T22:00:00.000Z"
+    },
+    {
+      "slug": "tunnelbear",
+      "name": "TunnelBear",
+      "color": "#ff8c00",
+      "logo": "TB",
+      "siteUrl": "https://tunnelbear.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Дружелюбный VPN с медведями и 2 ГБ бесплатно",
+      "description": "TunnelBear — канадский VPN, принадлежит McAfee. Известен дружелюбным интерфейсом и тематикой медведей. Бесплатный тариф — 2 ГБ/мес. Прошёл независимый аудит 5 раз подряд.",
+      "country": "🇨🇦 Канада",
+      "founded": "2011",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos"
+      ],
+      "pros": [
+        "Простой интерфейс для новичков",
+        "5 независимых аудитов",
+        "VigilantBear — kill switch",
+        "Бесплатно 2 ГБ"
+      ],
+      "cons": [
+        "Только 2 ГБ бесплатно (мало)",
+        "Принадлежит McAfee (США)",
+        "Нет obfuscation для России"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-17T08:56:00.000Z",
+      "currentStatus": "down"
+    },
+    {
+      "slug": "ipvanish",
+      "name": "IPVanish",
+      "color": "#3eb949",
+      "logo": "IV",
+      "siteUrl": "https://ipvanish.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN с высокой скоростью на собственной сети",
+      "description": "IPVanish — американский VPN, владеющий собственной серверной инфраструктурой (большинство конкурентов арендуют). Это даёт лучший контроль и скорость. Принадлежит Ziff Davis.",
+      "country": "🇺🇸 США",
+      "founded": "2012",
+      "protocols": [
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router"
+      ],
+      "pros": [
+        "Собственные серверы",
+        "Безлимит устройств",
+        "Хорошая скорость",
+        "Поддержка торрентов"
+      ],
+      "cons": [
+        "Юрисдикция США (Five Eyes)",
+        "В прошлом был инцидент с логами",
+        "Нет бесплатного тарифа"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-09T13:08:00.000Z",
+      "currentStatus": "down"
+    },
+    {
+      "slug": "hotspot-shield",
+      "name": "Hotspot Shield",
+      "color": "#00b78a",
+      "logo": "HS",
+      "siteUrl": "https://hotspotshield.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN с проприетарным протоколом Hydra",
+      "description": "Hotspot Shield принадлежит Pango (бывшая AnchorFree). Использует собственный протокол Catapult Hydra, известный высокой скоростью. Имеет бесплатный тариф 500 МБ/день.",
+      "country": "🇺🇸 США",
+      "founded": "2008",
+      "protocols": [
+        "Catapult Hydra",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos"
+      ],
+      "pros": [
+        "Высокая скорость на Hydra",
+        "Бесплатный тариф",
+        "Серверы в 80+ странах"
+      ],
+      "cons": [
+        "Бесплатный тариф с рекламой",
+        "Юрисдикция США",
+        "Закрытый протокол",
+        "В прошлом критиковали за приватность"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-09T15:17:00.000Z"
+    },
+    {
+      "slug": "psiphon",
+      "name": "Psiphon",
+      "color": "#0078d4",
+      "logo": "PS",
+      "siteUrl": "https://psiphon.ca",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Бесплатный анти-цензурный инструмент",
+      "description": "Psiphon — некоммерческий проект из Канады, изначально созданный для обхода интернет-цензуры в авторитарных странах. Бесплатный, использует комбинацию VPN, SSH и HTTP-прокси.",
+      "country": "🇨🇦 Канада",
+      "founded": "2008",
+      "protocols": [
+        "L2TP/IPSec",
+        "SSH+",
+        "HTTP Proxy"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows"
+      ],
+      "pros": [
+        "Полностью бесплатно",
+        "Создан специально для обхода блокировок",
+        "Открытый исходный код",
+        "Не требует регистрации"
+      ],
+      "cons": [
+        "Скорость на бесплатной версии низкая",
+        "Не подходит для приватности (есть логи)",
+        "Реклама в приложении"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-12T15:21:00.000Z"
+    },
+    {
+      "slug": "lantern",
+      "name": "Lantern",
+      "color": "#ff5722",
+      "logo": "LT",
+      "siteUrl": "https://getlantern.org",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "P2P-инструмент для обхода интернет-цензуры",
+      "description": "Lantern — открытое приложение для обхода интернет-цензуры. Использует P2P-сеть и серверы по всему миру. Бесплатно с лимитом скорости, есть Pro-версия.",
+      "country": "🇺🇸 США",
+      "founded": "2013",
+      "protocols": [
+        "P2P-tunnel",
+        "Shadowsocks"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "pros": [
+        "Бесплатно с базовой скоростью",
+        "Открытый исходный код",
+        "Простая установка",
+        "Хорошо обходит блокировки"
+      ],
+      "cons": [
+        "Не даёт реальной приватности",
+        "Низкая скорость на бесплатной версии",
+        "Не VPN в классическом смысле"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-10T19:26:00.000Z",
+      "currentStatus": "down"
+    },
+    {
+      "slug": "planetvpn",
+      "name": "Planet VPN",
+      "color": "#3f51b5",
+      "logo": "PL",
+      "siteUrl": "https://planetvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Бесплатный VPN с серверами в 8 странах",
+      "description": "Planet VPN (бывший Free VPN Planet) — бесплатный VPN-сервис из Нидерландов. Имеет полностью бесплатный тариф без лимита трафика, но с ограниченным выбором серверов.",
+      "country": "🇳🇱 Нидерланды",
+      "founded": "2020",
+      "protocols": [
+        "OpenVPN",
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos"
+      ],
+      "pros": [
+        "Бесплатно без лимита трафика",
+        "Простая установка",
+        "Нет логов (заявлено)"
+      ],
+      "cons": [
+        "На бесплатном тарифе только 8 стран",
+        "Скорость не топовая",
+        "Молодая компания"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-12T12:10:00.000Z"
+    },
+    {
+      "slug": "betternet",
+      "name": "Betternet",
+      "color": "#9c27b0",
+      "logo": "BN",
+      "siteUrl": "https://betternet.co",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Бесплатный VPN от Pango (Hotspot Shield)",
+      "description": "Betternet — бесплатный VPN от той же компании Pango, что и Hotspot Shield. Использует тот же протокол Catapult Hydra. Бесплатная версия показывает рекламу.",
+      "country": "🇺🇸 США",
+      "founded": "2014",
+      "protocols": [
+        "Catapult Hydra"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos"
+      ],
+      "pros": [
+        "Бесплатно",
+        "Высокая скорость на Hydra",
+        "Простой интерфейс"
+      ],
+      "cons": [
+        "Реклама в бесплатной версии",
+        "Юрисдикция США",
+        "Не рекомендуется для приватности"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-14T09:44:00.000Z",
+      "currentStatus": "down"
+    },
+    {
+      "slug": "hola",
+      "name": "Hola VPN",
+      "color": "#fb6107",
+      "logo": "HL",
+      "siteUrl": "https://hola.org",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "P2P VPN — не рекомендуется для приватности",
+      "description": "Hola — VPN, использующий P2P-модель, где пропускная способность пользователей становится exit-нодами для других. В прошлом критиковался за продажу полосы пропускания. Не рекомендуется тем, кому важна приватность.",
+      "country": "🇮🇱 Израиль",
+      "founded": "2007",
+      "protocols": [
+        "P2P-tunnel"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos"
+      ],
+      "pros": [
+        "Бесплатно",
+        "Большое покрытие стран",
+        "Расширение для браузера"
+      ],
+      "cons": [
+        "P2P-модель — ваш канал используют другие",
+        "В прошлом включён в ботнеты",
+        "Нет no-logs",
+        "Не рекомендуется"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-12T12:23:00.000Z"
+    },
+    {
+      "slug": "x-vpn",
+      "name": "X-VPN",
+      "color": "#000000",
+      "logo": "XV",
+      "siteUrl": "https://xvpn.io",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN с фокусом на обход блокировок",
+      "description": "X-VPN — сингапурский VPN с собственным протоколом, ориентированный на обход блокировок в странах с цензурой. Имеет бесплатный тариф с ограничениями.",
+      "country": "🇸🇬 Сингапур",
+      "founded": "2017",
+      "protocols": [
+        "X-Protocol",
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos"
+      ],
+      "pros": [
+        "Заточен под обход блокировок",
+        "Бесплатный тариф",
+        "Поддерживает много протоколов"
+      ],
+      "cons": [
+        "Закрытый исходный код",
+        "Аудит безопасности не публиковался",
+        "Бесплатно — мало серверов"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-17T04:20:00.000Z"
+    },
+    {
+      "slug": "ded-vpn",
+      "name": "Дед ВПН",
+      "color": "#c41e3a",
+      "logo": "ДВ",
+      "siteUrl": "https://t.me/DedVPN_bot",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Русскоязычный VPN-бот в Telegram с простой оплатой",
+      "description": "Дед ВПН — Telegram-бот с готовыми VPN-конфигами для российских пользователей. Поддерживает популярные протоколы для обхода блокировок Роскомнадзора. Удобная оплата российскими картами через Telegram-бота, без сложной регистрации.",
+      "country": "🇷🇺 Telegram-сервис",
+      "founded": "2023",
+      "protocols": [
+        "VLESS",
+        "Outline",
+        "WireGuard"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "openai"
+      ],
+      "pros": [
+        "Оплата российскими картами",
+        "Простая выдача через Telegram",
+        "Работает с YouTube и стримингом",
+        "Тестовый период"
+      ],
+      "cons": [
+        "Управление только через Telegram",
+        "Нет фирменного приложения",
+        "Скорость зависит от загрузки серверов"
+      ],
+      "faq": [
+        {
+          "q": "Как купить Дед ВПН?",
+          "a": "Перейдите в Telegram-бот, выберите тариф и оплатите российской картой прямо в боте. После оплаты получите конфиг."
+        }
+      ],
+      "uptimeStartIso": "2026-04-19T18:28:00.000Z"
+    },
+    {
+      "slug": "dyadya-vanya-vpn",
+      "name": "Дядя Ваня ВПН",
+      "color": "#1f6f43",
+      "logo": "ДЯ",
+      "siteUrl": "https://t.me/DyadyaVanyaVPN_bot",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Народный VPN-бот для россиян с понятной оплатой",
+      "description": "Дядя Ваня ВПН — Telegram-бот для пользователей из России. Предлагает несколько тарифов с разными протоколами. Известен дружелюбным интерфейсом и поддержкой на русском языке. Оплата принимается российскими картами и СБП.",
+      "country": "🇷🇺 Telegram-сервис",
+      "founded": "2023",
+      "protocols": [
+        "VLESS Reality",
+        "Outline",
+        "Shadowsocks"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "discord"
+      ],
+      "pros": [
+        "Поддержка на русском языке",
+        "Оплата российскими картами и СБП",
+        "Несколько протоколов на выбор",
+        "Работает с YouTube"
+      ],
+      "cons": [
+        "Только Telegram-интерфейс",
+        "Нет десктопного клиента",
+        "Зависит от стабильности Telegram"
+      ],
+      "faq": [
+        {
+          "q": "Можно ли использовать Дядя Ваня ВПН на нескольких устройствах?",
+          "a": "Да, в зависимости от тарифа доступно от 2 до 5 одновременных подключений."
+        }
+      ],
+      "uptimeStartIso": "2026-04-12T13:12:00.000Z"
+    },
+    {
+      "slug": "hit-vpn",
+      "name": "Хит ВПН",
+      "color": "#e91e63",
+      "logo": "ХВ",
+      "siteUrl": "https://t.me/HitVPN_bot",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Быстрый VPN-сервис в Telegram с акцентом на скорости",
+      "description": "Хит ВПН — Telegram-бот с современными протоколами VPN. Делает ставку на высокую скорость подключения и стабильность для стриминга. Поддерживает оплату российскими платёжными системами.",
+      "country": "🇷🇺 Telegram-сервис",
+      "founded": "2023",
+      "protocols": [
+        "VLESS Reality",
+        "AmneziaWG",
+        "Outline"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "discord",
+        "twitch",
+        "openai"
+      ],
+      "pros": [
+        "Высокая скорость для стриминга 4K",
+        "Современные протоколы (Reality, AmneziaWG)",
+        "Российские способы оплаты",
+        "Работает с ChatGPT"
+      ],
+      "cons": [
+        "Только Telegram-управление",
+        "Нет бесплатного тарифа",
+        "Молодой сервис"
+      ],
+      "faq": [
+        {
+          "q": "Хит ВПН подходит для YouTube 4K?",
+          "a": "Да, протокол VLESS Reality обеспечивает достаточную скорость для просмотра 4K-видео без буферизации."
+        }
+      ],
+      "uptimeStartIso": "2026-04-13T01:37:00.000Z"
+    },
+    {
+      "slug": "ogon-vpn",
+      "name": "Огонь ВПН",
+      "color": "#ff4500",
+      "logo": "ОГ",
+      "siteUrl": "https://t.me/OgonVPN_bot",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Огненный VPN-бот в Telegram для российских пользователей",
+      "description": "Огонь ВПН — Telegram-бот, ориентированный на российскую аудиторию. Использует современные протоколы для обхода блокировок Роскомнадзора. Принимает оплату российскими картами и СБП, выдаёт конфиги сразу после оплаты.",
+      "country": "🇷🇺 Telegram-сервис",
+      "founded": "2023",
+      "protocols": [
+        "VLESS Reality",
+        "AmneziaWG",
+        "Outline"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube",
+        "telegram",
+        "instagram",
+        "tiktok",
+        "discord",
+        "openai"
+      ],
+      "pros": [
+        "Оплата российскими картами и СБП",
+        "Современные протоколы против DPI",
+        "Мгновенная выдача конфига",
+        "Работает с YouTube и ChatGPT"
+      ],
+      "cons": [
+        "Только Telegram-управление",
+        "Нет десктопного клиента",
+        "Молодой сервис"
+      ],
+      "faq": [
+        {
+          "q": "Что делать, если Огонь ВПН перестал работать?",
+          "a": "Обычно достаточно перевыпустить конфиг через бота — серверная инфраструктура обновляется при обнаружении блокировок."
+        }
+      ],
+      "uptimeStartIso": "2026-04-17T16:44:00.000Z"
+    },
+    {
+      "slug": "radmin-vpn",
+      "name": "Radmin VPN",
+      "color": "#0070c9",
+      "logo": "RV",
+      "siteUrl": "https://www.radmin-vpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "Бесплатная виртуальная LAN-сеть для игр и удалёнки",
+      "description": "Radmin VPN — бесплатный инструмент от Famatech для создания виртуальных локальных сетей. Это НЕ VPN для обхода блокировок и не средство приватности. Используется для игры в локальном мультиплеере по интернету, удалённого доступа к домашним сервисам и совместной работы.",
+      "country": "🇮🇱 Famatech",
+      "founded": "2019",
+      "protocols": [
+        "Proprietary L3 tunnel"
+      ],
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "discord"
+      ],
+      "pros": [
+        "Полностью бесплатно без ограничений",
+        "Идеально для игр через локальную сеть по интернету",
+        "Простая настройка — создал сеть и поделился ID",
+        "Низкая задержка"
+      ],
+      "cons": [
+        "НЕ обходит блокировки сайтов",
+        "Не предназначен для приватности",
+        "Нет мобильных клиентов",
+        "Не подменяет публичный IP в браузере"
+      ],
+      "faq": [
+        {
+          "q": "Можно ли через Radmin VPN зайти на заблокированный сайт?",
+          "a": "Нет. Radmin VPN создаёт локальную сеть между устройствами участников, но не перенаправляет ваш интернет-трафик через сторонний сервер."
+        },
+        {
+          "q": "Для чего нужен Radmin VPN?",
+          "a": "Для игр в локальном мультиплеере по интернету (Minecraft, Stronghold, старые игры с LAN-режимом), удалённого доступа к компьютерам и сетевым принтерам."
+        }
+      ],
+      "uptimeStartIso": "2026-04-10T23:06:00.000Z"
+    },
+    {
+      "slug": "straus-vpn",
+      "name": "Страус ВПН",
+      "color": "#7a4f01",
+      "logo": "СВ",
+      "siteUrl": "https://t.me/StrausVPN_bot",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "currentStatus": "down",
+      "uptimeStartIso": "2026-04-28T18:00:00.000Z",
+      "tagline": "Telegram-бот VPN, в последнее время с перебоями",
+      "description": "Страус ВПН — небольшой Telegram-бот с VPN-конфигами для российских пользователей. Заявляет поддержку нескольких протоколов и оплату российскими картами. По состоянию на текущую дату пользователи массово сообщают о неработающих серверах и проблемах с выдачей конфигов.",
+      "country": "🇷🇺 Telegram-сервис",
+      "founded": "2024",
+      "protocols": [
+        "VLESS",
+        "Outline"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube",
+        "telegram"
+      ],
+      "pros": [
+        "Оплата российскими картами",
+        "Простая выдача через бота"
+      ],
+      "cons": [
+        "Нестабильная работа серверов",
+        "Молодой сервис без репутации",
+        "В последнее время массовые жалобы на недоступность"
+      ],
+      "faq": [
+        {
+          "q": "Что делать, если Страус ВПН не работает?",
+          "a": "Сначала перевыпустите конфиг через бота — иногда серверы меняются. Если не помогает, попробуйте альтернативы из топа выше."
+        }
+      ]
+    },
+    {
+      "slug": "vyprvpn",
+      "name": "VyprVPN",
+      "color": "#0072c6",
+      "logo": "VY",
+      "siteUrl": "https://vyprvpn.com",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN со собственным протоколом Chameleon",
+      "description": "VyprVPN — швейцарский VPN, известный собственным протоколом Chameleon, который обходит deep packet inspection. Принадлежит Golden Frog. Все серверы в собственности компании.",
+      "country": "🇨🇭 Швейцария",
+      "founded": "2009",
+      "protocols": [
+        "Chameleon",
+        "WireGuard",
+        "OpenVPN",
+        "IKEv2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "linux",
+        "router"
+      ],
+      "pros": [
+        "Chameleon обходит DPI",
+        "Все серверы в собственности",
+        "Швейцарская юрисдикция",
+        "Аудит no-logs"
+      ],
+      "cons": [
+        "Дороже среднего",
+        "Серверов меньше, чем у топов",
+        "Нет бесплатного тарифа"
+      ],
+      "faq": [],
+      "uptimeStartIso": "2026-04-14T23:06:00.000Z"
+    }
+  ]
+}

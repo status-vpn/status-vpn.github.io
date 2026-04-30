@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{SITE_TITLE}} — статус {{TODAY_DATE}}</title>
+  <meta name="description" content="{{SITE_DESCRIPTION}} Актуальный статус на {{TODAY_DATE}}.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="./">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{{SITE_TITLE}} — {{TODAY_DATE}}">
+  <meta property="og:description" content="{{SITE_DESCRIPTION}}">
+  <meta property="og:locale" content="ru_RU">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "{{SITE_TITLE}}",
+    "description": "{{SITE_DESCRIPTION}}",
+    "inLanguage": "ru-RU",
+    "dateModified": "{{TODAY_ISO}}",
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{SITE_AUTHOR}}"
+    }
+  }
+  </script>
+</head>
+<body data-page="index">
+  <a class="skip-link" href="#main">К содержанию</a>
+  <header class="site-header">
+    <div class="container header-row">
+      <a href="./" class="brand" aria-label="{{SITE_TITLE}}">
+        <span class="brand-mark">VPN</span><span class="brand-mark-accent">Status</span>
+      </a>
+      <nav class="site-nav" aria-label="Основная навигация">
+        <a href="#services">Сервисы</a>
+        <a href="#how">Как работает</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <span class="last-update" aria-live="polite">Обновлено: <time datetime="{{TODAY_ISO}}">{{TODAY_DATE}}</time></span>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero hero-index">
+      <div class="container">
+        <p class="eyebrow">Мониторинг VPN-сервисов · {{TODAY_DATE}}</p>
+        <h1>Какие VPN работают сегодня в России</h1>
+        <p class="lede">Проверяем статус популярных VPN-сервисов каждый день. Голосуйте, если у вас не работает — счётчик отразит реальную картину. Подбираем рабочие альтернативы.</p>
+        <div class="hero-stats" role="group" aria-label="Сводка по сервисам">
+          <div class="stat"><span class="stat-num">{{COUNT_TOTAL}}</span><span class="stat-label">Сервисов отслеживается</span></div>
+          <div class="stat"><span class="stat-num" data-stat="working">—</span><span class="stat-label">Работают сейчас</span></div>
+          <div class="stat"><span class="stat-num" data-stat="issues">—</span><span class="stat-label">Со сбоями</span></div>
+          <div class="stat"><span class="stat-num" data-stat="down">—</span><span class="stat-label">Не работают</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section" id="services" aria-labelledby="services-heading">
+      <div class="section-head">
+        <h2 id="services-heading">Статус всех сервисов на {{TODAY_DATE}}</h2>
+        <div class="filters" role="tablist" aria-label="Фильтр по статусу">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">Все</button>
+          <button class="filter" data-filter="ok" role="tab" aria-selected="false">Работают</button>
+          <button class="filter" data-filter="warn" role="tab" aria-selected="false">Сбои</button>
+          <button class="filter" data-filter="down" role="tab" aria-selected="false">Не работают</button>
+        </div>
+      </div>
+      <div class="services-grid" data-services-grid>
+{{SERVICES_LIST}}
+      </div>
+    </section>
+
+    <section class="container section" id="how" aria-labelledby="how-heading">
+      <h2 id="how-heading">Как мы определяем статус</h2>
+      <div class="three-col">
+        <article class="card-info">
+          <div class="card-info-icon" aria-hidden="true">📡</div>
+          <h3>Голоса пользователей</h3>
+          <p>Каждый посетитель может проголосовать «не работает» или «работает». Когда жалобы превышают порог, статус меняется автоматически, а счётчик безотказной работы сбрасывается.</p>
+        </article>
+        <article class="card-info">
+          <div class="card-info-icon" aria-hidden="true">⏱️</div>
+          <h3>Счётчик безотказной работы</h3>
+          <p>Тикает в реальном времени с момента последнего инцидента. Чем дольше работает — тем стабильнее сервис в текущих условиях.</p>
+        </article>
+        <article class="card-info">
+          <div class="card-info-icon" aria-hidden="true">🔄</div>
+          <h3>Ежедневная сверка</h3>
+          <p>HTML-страницы пересобираются каждый день: дата в коде, агрегаты голосов и состояние таймеров обновляются автоматически.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section faq" id="faq" aria-labelledby="faq-heading">
+      <h2 id="faq-heading">Частые вопросы</h2>
+      <details>
+        <summary>Какой VPN работает в России на {{TODAY_DATE}}?</summary>
+        <p>На текущий момент стабильно работают сервисы с обфускацией трафика и протоколами VLESS Reality, AmneziaWG и Shadowsocks. Среди них VPNType, AdGuard VPN, Amnezia, Outline. Полный актуальный список — в карточках выше.</p>
+      </details>
+      <details>
+        <summary>Что значит «сброс счётчика»?</summary>
+        <p>Когда количество жалоб «не работает» достигает порога, счётчик безотказной работы сервиса обнуляется. Это сигнал, что у многих пользователей действительно есть проблемы.</p>
+      </details>
+      <details>
+        <summary>Почему страница каждый день показывает новую дату?</summary>
+        <p>HTML-код пересобирается ежедневно автоматическим скриптом. Это нужно, чтобы поисковые системы видели актуальную дату прямо в исходном коде, а не только в JavaScript.</p>
+      </details>
+      <details>
+        <summary>Сколько голосов нужно, чтобы сбросить таймер?</summary>
+        <p>Для большинства сервисов — 10 голосов «не работает». Для ключевых сервисов (VPNType, AdGuard) порог выше: 50 голосов, чтобы исключить накрутки и случайные срабатывания.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-row">
+      <span>© {{SITE_YEAR}} {{SITE_AUTHOR}}. Данные обновлены {{TODAY_DATE}}.</span>
+      <span class="footer-meta">Не является официальным представителем сервисов. Информация — на основе пользовательских отчётов.</span>
+    </div>
+  </footer>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Какой VPN работает в России на {{TODAY_DATE}}?",
+        "acceptedAnswer": {"@type":"Answer","text":"Стабильно работают сервисы с обфускацией трафика — VPNType, AdGuard VPN, Amnezia, Outline. Подробности и оперативный статус — на отдельных страницах."}
+      },
+      {
+        "@type": "Question",
+        "name": "Что значит сброс счётчика безотказной работы?",
+        "acceptedAnswer": {"@type":"Answer","text":"Когда жалобы «не работает» достигают порога, счётчик обнуляется. Это сигнал реальной проблемы."}
+      }
+    ]
+  }
+  </script>
+  <script src="assets/js/votes.js" defer></script>
+  <script src="assets/js/timer.js" defer></script>
+  <script src="assets/js/index.js" defer></script>
+</body>
+</html>
