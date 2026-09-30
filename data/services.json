@@ -86,6 +86,55 @@
     }
   },
   "services": [
+        {
+      "slug": "shtora-vpn",
+      "name": "SHTORA VPN",
+      "color": "#2EE59D",
+      "logo": "SV",
+      "siteUrl": "https://t.me/shtora_vpnbot",
+      "isPartner": false,
+      "voteThreshold": 10,
+      "tagline": "VPN в Telegram для стабильного доступа к зарубежным сервисам",
+      "description": "SHTORA VPN — VPN-сервис с удобным подключением через Telegram-бота. Поддерживает современные протоколы VLESS Reality, VLESS XHTTP/TLS и Hysteria2, работает на Android, iOS, Windows и macOS. Сервис подходит для доступа к YouTube, Telegram, ChatGPT, Claude и другим зарубежным ресурсам. Доступна оплата через СБП, российские и зарубежные банковские карты, а также криптовалюту.",
+      "country": "Telegram-сервис",
+      "founded": "2026",
+      "protocols": [
+        "VLESS Reality",
+        "VLESS XHTTP/TLS",
+        "Hysteria2"
+      ],
+      "platforms": [
+        "android",
+        "ios",
+        "windows",
+        "macos",
+        "youtube",
+        "telegram",
+        "openai"
+      ],
+      "pros": [
+        "Современные протоколы VLESS Reality, XHTTP/TLS и Hysteria2",
+        "Работает с YouTube, Telegram, ChatGPT и Claude",
+        "Поддержка Android, iOS, Windows и macOS",
+        "Серверы в нескольких странах с расширением списка локаций",
+        "Оплата через СБП, российские и зарубежные карты, а также криптовалюту"
+      ],
+      "cons": [],
+      "faq": [
+        {
+          "question": "Как подключить SHTORA VPN?",
+          "answer": "Перейдите в Telegram-бот SHTORA VPN, выберите тариф и следуйте инструкции по подключению для своего устройства."
+        },
+        {
+          "question": "Работает ли SHTORA VPN с YouTube, ChatGPT и Claude?",
+          "answer": "Да, SHTORA VPN подходит для доступа к YouTube, ChatGPT, Claude, Telegram и другим зарубежным сервисам."
+        },
+        {
+          "question": "Какие протоколы поддерживает SHTORA VPN?",
+          "answer": "Сервис поддерживает VLESS Reality, VLESS XHTTP/TLS и Hysteria2."
+        }
+      ]
+    },
     {
       "slug": "vpntype",
       "name": "VPNType",
